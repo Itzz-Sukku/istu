@@ -187,7 +187,7 @@ Use the console below 👇
                 [
                     InlineKeyboardButton(
                         "🛒 Open API Console",
-                        url="https://console.nexgenbots.xyz",
+                        url="https://t.me/lVAMPIRE_KINGl",
                     )
                 ],
                 [
@@ -264,4 +264,5 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
 
         except Exception as ex:
+
             print(ex)
