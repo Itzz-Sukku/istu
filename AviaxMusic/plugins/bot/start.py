@@ -143,7 +143,7 @@ async def start_gp(client, message: Message, _):
 async def api_console_cb(client, query: CallbackQuery):
     await query.message.edit_caption(
         caption="""
-🚀 **NEXGENBOTS API Console**
+#🚀 **NEXGENBOTS API Console**
 
 Fast, reliable & developer-friendly API access.
 
@@ -180,7 +180,7 @@ Fast, reliable & developer-friendly API access.
 
 🛒 **Buy / Manage API**
 Use the console below 👇
-        """,
+        """,#
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -266,4 +266,5 @@ async def welcome(client, message: Message):
         except Exception as ex:
 
             print(ex)
+
 
